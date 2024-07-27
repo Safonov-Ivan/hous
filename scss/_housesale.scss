@@ -1,0 +1,108 @@
+.housesale{
+    .container{
+      .housesale-row{
+        display: flex;
+        justify-content: space-around;
+        .left-side{
+            h2{
+
+                font-size: 36px;
+                color: #323232;
+            }
+            .p-top-hous{
+                padding-top: 71px;
+            }
+            .housesale-img-row{
+               
+                display: flex;
+                align-items: flex-start;
+            
+
+                .housesale-img-coll{
+                    margin-left: 28px;
+                    display: flex;
+                    flex-direction: column;
+                    padding-bottom: 54px;
+
+                    h2{
+                        font-weight: 400;
+                        font-size: 29px;
+                        color: #4A4A4A;
+                        line-height: 39.56px;
+                    }
+                    span{
+                        font-size: 21px;
+                        color: #4A4A4A;
+                        line-height: 28.64px;
+                    }
+                }
+            }
+        }
+        .rigth-side{
+            overflow: hidden;
+            position: relative;
+            height: 564px;
+            .div-bd{
+                position: relative;
+                width: 476.62px;
+                top: 62px;
+                height: 431px;
+                background-color: #FFC839;
+                z-index: 1;
+            }
+            img{
+                position: relative;
+                z-index: 50;
+                bottom: 434px;
+                left: 51px;
+            }
+        }
+      }
+    }
+}
+
+
+
+@media screen and (max-width: 320px){
+    .housesale{
+        
+        .container{
+
+          .housesale-row{
+            display: flex;
+            flex-direction: column;
+            .left-side{
+                h2{
+                    padding-top: 20px;
+                    font-size: 31px;
+                }
+                .p-top-hous{
+               
+                }
+                .housesale-img-row{
+               
+                    .housesale-img-coll{
+                     
+                        h2{
+                            font-size: 20px;
+                        }
+                        span{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .rigth-side{
+                display: none;
+                .div-bd{
+                    display: none;
+                }
+                img{
+                   
+                }
+            }
+          }
+        }
+    }
+    
+}

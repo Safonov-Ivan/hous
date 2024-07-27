@@ -1,0 +1,42 @@
+
+.container{
+    .gallery{
+        h2{
+            font-weight: 600;
+            font-size: 36px;
+            color: #323232;
+            padding-bottom: 45px;
+        }
+
+        .gallery-wrap{
+            display: flex;
+            flex-wrap: wrap;
+
+            img{
+                margin: 3px;
+            }
+            margin-bottom: 128px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 864px){
+    
+.container{
+    .gallery{
+  
+
+        .gallery-wrap{
+       
+
+            img{
+                width: 275px;
+                margin: 3px;
+            }
+            margin-bottom: 128px;
+        }
+    }
+}
+
+}

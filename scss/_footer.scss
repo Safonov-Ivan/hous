@@ -1,0 +1,220 @@
+footer{
+    
+    background-color: #093A7A;
+    h2{
+        color: #e5e5e5bd;
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
+        margin-top: 20px;
+        line-height: 23.44px;
+    }
+ .container{
+    
+    .top-footer{
+        padding-bottom: 7px;
+        .top-footer-row{
+            padding: 45px 0 28px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+        a{
+            color: #CACACA;
+            font-family: "Roboto", sans-serif;
+        }
+    }
+
+    .center-footer{
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+        .australia{
+            h2{
+                color: #e5e5e5;
+            }
+        }
+        .center-footer-row{
+            display: flex;
+
+            a{
+                padding-right: 40px;
+            }
+        }
+
+        
+        a{
+            color: #CACACA;
+            font-family: "Roboto", sans-serif;
+        }
+
+    }
+    .botton-footer{
+        margin-top: 20px;
+        margin-bottom: 159px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a{
+            font-family: "Roboto", sans-serif;
+            color: #CACACA;
+            font-size: 11px;
+
+        }
+    }
+ }   
+}
+
+
+@media screen and (max-width: 864px){
+
+    footer{
+    
+        background-color: #093A7A;
+        h2{
+            text-align: center;
+         
+        }
+     .container{
+        
+        .top-footer{
+            padding-bottom: 7px;
+            .top-footer-row{
+                padding: 45px 0 40px 0;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            
+            }
+    
+            border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+            a{
+                color: #CACACA;
+                font-family: "Roboto", sans-serif;
+            }
+        }
+    
+        .center-footer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+            .australia{
+                h2{
+                   
+                }
+            }
+            .center-footer-row{
+               
+            
+                a{
+                    padding-right: 0;
+                }
+            }
+    
+            
+            a{
+                color: #CACACA;
+                font-family: "Roboto", sans-serif;
+            }
+    
+        }
+        .botton-footer{
+            margin-top: 20px;
+            margin-bottom: 159px;
+            display: flex;
+            align-items: center;
+    
+    
+            a{
+                font-family: "Roboto", sans-serif;
+                color: #CACACA;
+                font-size: 8px;
+                padding: 10px;
+    
+            }
+        }
+     }   
+    }
+    
+}
+
+@media screen and (max-width: 320px){
+
+    footer{
+    
+        background-color: #093A7A;
+        h2{
+            text-align: center;
+         
+        }
+     .container{
+        
+        .top-footer{
+            padding-bottom: 7px;
+            .top-footer-row{
+                padding: 45px 0 28px 0;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            
+            }
+    
+            border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+            a{
+                color: #CACACA;
+                font-family: "Roboto", sans-serif;
+            }
+        }
+    
+        .center-footer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+            .australia{
+                h2{
+                    color: #e5e5e5;
+                   padding-bottom: 20px;
+                }
+            }
+            .center-footer-row{
+               
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+    
+                a{
+                    padding-right: 0;
+                }
+            }
+    
+            
+            a{
+                color: #CACACA;
+                font-family: "Roboto", sans-serif;
+            }
+    
+        }
+        .botton-footer{
+            margin-top: 20px;
+            margin-bottom: 159px;
+            display: flex;
+            align-items: center;
+           flex-direction: column;
+    
+            a{
+                font-family: "Roboto", sans-serif;
+                color: #CACACA;
+                font-size: 11px;
+                padding: 10px;
+    
+            }
+        }
+     }   
+    }
+}
+

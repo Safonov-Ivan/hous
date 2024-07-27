@@ -1,0 +1,96 @@
+form{
+    margin-top: 98px;
+    margin-bottom: 122px;
+    width: 100%;
+    background-color: #FFF5DA;
+    .form-content{
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            padding-top: 127px;
+            font-size: 36px;
+            line-height: 49.1px;
+            color: #323232;
+        }
+        span{
+            font-size: 29px;
+            line-height: 39.56px;
+            color: #646464;
+        }
+
+        .div-input{
+            background-color: #FFFFFF;
+            border: 1px solid #323232;
+            margin-top: 10px;
+            margin-bottom: 104px;
+            .div-input-row{
+                width: 500px;
+                height: 70px;
+                padding: 0 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+
+                input{
+                    width: 100%;
+                    border: none;
+                }
+                a{
+                    text-align: center;
+                    padding: 10px 40px;
+                    font-size: 29px;
+                    color: #000000;
+                    background-color: #FFC839;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px){
+    form{
+        margin-top: 98px;
+        margin-bottom: 122px;
+        width: 100%;
+        background-color: #FFF5DA;
+        .form-content{
+            
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            h2{
+               
+                font-size: 20px;
+
+            }
+            span{
+                font-size: 20px;
+            }
+    
+            .div-input{
+            
+                .div-input-row{
+                    width: 268px;
+                    height: 66px;
+                    padding: 0 10px;
+    
+                    input{
+                        width: 33%;
+                        border: none;
+                    }
+                    a{
+                        text-align: center;
+                        padding: 0px 7px;
+                        font-size: 29px;
+                   
+                    }
+                }
+            }
+        }
+    }
+
+}

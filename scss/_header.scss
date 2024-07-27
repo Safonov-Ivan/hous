@@ -1,0 +1,97 @@
+header{
+      background-image: url(./../assets/images/header-promo/bg-promo.png);
+    background-size: cover;
+     max-width: 100%;
+
+    
+    .gradient-bg{
+        background: linear-gradient(0.87deg, rgba(2, 55, 135, 0.9) 0.69%, rgba(81, 38, 174, 0.4736) 100.48%, rgba(38, 92, 174, 0.0102906) 100.49%, rgba(195, 195, 196, 0.00520833) 100.5%, #76A6EF 100.51%);
+        .container{
+           
+            .flex-box-navigation{
+                padding-top: 42px;
+                padding-bottom: 42px;
+                padding-right: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .nav{
+                    
+                    .menu{
+    
+                       
+                    }
+                    .menu a{
+                        padding: 0 40px 0 0;
+                        font-weight: 400;
+                        color: #ffffffbd;
+                        font-size: 18px;
+                        font-family: "Roboto", sans-serif;
+                    }
+                }
+            }
+
+        }
+        .promo{
+          
+            padding-bottom: 283px;
+            .container{
+
+                .content{
+                    max-width: 821px;
+                    h1{
+                        padding-top: 202px;
+                        padding-bottom: 22px;
+                        color: #ffffff;
+                        font-size: 60px;
+                        font-weight: 700;
+                        line-height: 81.84px;
+                    }
+                    span{
+                        font-size: 29px;
+                        font-weight: 400;
+                        color: #ffffffe0;       
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 320px){
+
+    .header{
+        .gradient-bg{
+            .container{
+              .flex-box-navigation{
+                display: flex;
+                flex-direction: column;
+              } 
+
+              .nav{
+                .menu{
+
+                }
+              }
+            }
+
+            .promo{
+                .container{
+                    .content{
+                        h1{
+                            padding-top: 133px;
+                            font-size: 27px;
+                             line-height: 37.84px;
+                        }
+                        span{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+                
+}
+  

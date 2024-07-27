@@ -1,0 +1,94 @@
+.cards{
+    padding-top: 74px;
+    .container{
+
+        .rov-card{
+           
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .carditem{
+                margin: 21px;
+             .item{
+                 max-width: 398.68px;
+                    
+                 .contant-card{
+                     display: flex;
+                     justify-content: center;
+                     align-items: center;
+                     padding: 47px 30px;
+                     box-shadow: 15px 15px 5px 5px rgba(0, 0, 0, 0.733);
+                     .card-btn{
+                         display: flex;
+                         align-items: center;
+                         justify-content: center;
+                         width: 30px;
+                         height: 30px;
+                         background-color: #FFC839;
+                         border-radius: 20px;
+                         margin-right: 31px;
+     
+                         a{
+                             font-size: 20px;
+                         }
+                     }
+                     
+                     span{
+                         color: #000000;
+                         font-size: 14px;
+                         font-weight: 700;
+                     }
+                 }
+             }
+            } 
+        }
+    }
+}
+
+@media screen and (max-width: 864px){
+    .cards{
+
+        .container{
+            padding: 2px;
+            .rov-card{
+                display: flex;
+                flex-direction: column;
+           
+                .carditem{
+                    margin: 1px;
+                } 
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 320px){
+    .cards{
+
+        .container{
+            padding: 2px;
+            .rov-card{
+                display: flex;
+                flex-direction: column;
+           
+                .carditem{
+               
+                 .item{
+                  
+                 
+                    
+                     .contant-card{
+                        padding: 4px 30px;
+                        
+                         
+                       
+                     }
+                 }
+                } 
+            }
+        }
+    }
+    
+}
+
